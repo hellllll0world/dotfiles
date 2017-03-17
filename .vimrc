@@ -27,7 +27,8 @@ Plugin 'https://github.com/altercation/vim-colors-solarized.git'
 Plugin 'https://github.com/terryma/vim-multiple-cursors.git'
 Plugin 'https://github.com/chazy/cscope_maps.git'
 Plugin 'https://github.com/plasticboy/vim-markdown.git'
-Plugin 'https://github.com/powerline/powerline.git'
+"Plugin 'https://github.com/powerline/powerline.git'
+Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 " plugin from http://vim-scripts.org/vim/scripts.html
 "Plugin 'L9'
 " Git plugin not hosted on GitHub
@@ -77,10 +78,12 @@ set nocscopeverbose
 " show powerline font
 "let g:airline_powerline_fonts = 1
 
-" powerline
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
+" if powerline installed by pip
+"python from powerline.vim import setup as powerline_setup
+"python powerline_setup()
+"python del powerline_setup
+" else
+
 let g:Powerline_symbols = 'fancy'
 set laststatus=2                                  " always show statusline
 
