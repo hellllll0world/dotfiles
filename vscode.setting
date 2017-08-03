@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Solarized Light",
+    "editor.renderWhitespace": "all",
+    "editor.fontFamily": "Monaco",
+    "editor.fontSize": 13,
+    "editor.renderIndentGuides": false,
+    "editor.rulers": [
+        120
+    ]
+}
