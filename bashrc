@@ -88,7 +88,8 @@ esac
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ls='ls -G'
+# alias ls='ls -G' mac
+alias ls='ls --color=auto' # ubuntu
 alias ll='ls -l'
 alias cls='clear'
 alias ga='git add'
