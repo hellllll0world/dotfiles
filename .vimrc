@@ -71,6 +71,10 @@ set showcmd
 set nowrap
 set nobackup
 set autowrite
+set encoding=utf-8
+set fileencodings=ucs-bom,utf-8,cp936
+set fileencoding=gb2312
+set termencoding=utf-8
 
 "set foldmethod=marker
 
